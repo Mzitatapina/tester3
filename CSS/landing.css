@@ -796,8 +796,7 @@ button:hover{
 
     .languagebarcover2{
         z-index: 200;
-        height: 104%;
-        transform: translateY(-3%);
+        height: 20%;
     }
 
     .languagebarcover2 a{
@@ -892,8 +891,8 @@ button:hover{
       }
       
       .exitMobile {
-        width: 10%;
-        height: 10%;
+        width:20%;
+        height: 20%;
         float: right;
         cursor: pointer;
         margin-top: 0;
