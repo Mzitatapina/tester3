@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>სპეციალური გამოშვება - გურიელი</title>
+    <link rel="stylesheet" href="CSS/specialGeo.css">
+    <link rel="icon" href="IMAGES/logo5.png" type="image/x-icon">
+    <link rel="shortcut icon" href="IMAGES/logo5.png" type="image/x-icon">
+</head>
+<body>
+    
+
+    <header>
+        <div class="languagebarcover">
+            <a href="specialGeo.html"><p class="languagebar">GEO</p></a>
+            <a href="special.html"><p class="languagebar">ENG</p></a>
+        </div>
+        <a href="landingGeo.html"><img src="SVG/logo7.svg" alt="gurieli" class="logo"></a>
+        <nav>
+            <ul>
+              <li><a href="landingGeo.html">მთავარი</a></li>
+              <li>
+                <a href="#history">ჩვენი ამბავი</a>
+                <ul class="dropdown">
+                  <li><a class="dropdowna" href="historyGeo.html">ისტორია</a></li>
+                  <li><a class="dropdowna" href="resourcesGeo.html">პლანტაციები & რესურსები</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">პროდუქტები</a>
+                <ul class="dropdown">
+                  <li><a class="dropdowna" href="#">ცხელი ჩაი</a></li>
+                  <li><a class="dropdownb" href="product_2Geo.html">გურიელი</a></li>
+                  <li><a class="dropdownb" href="product_1Geo.html">პრინცი გურიელი</a></li>
+                  <li><a class="dropdownb" href="specialGeo.html">ლიმიტირებული სერია</a></li>
+                  <li><a class="dropdowna" href="product_3Geo.html">ცივი ჩაი</a></li>
+                </ul>
+              </li>
+              <li><a href="newsGeo.html">სიახლეები</a></li>
+              <li><a href="exportGeo.html">ექსპორტი</a></li>
+              <li><a href="contactGeo.html">კონტაქტი</a></li>
+            </ul>
+          </nav>
+        </nav>
+    </header>
+    
+    <div class="slider-container">
+        <img class="sliderbackground" src="IMAGES/Untitled-1.png" alt="gurieli">
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <div class="slider">
+          <div class="slide active">
+                <div class="product1">
+                    <img src="IMAGES/rustaveli1.png" alt="Gurieli">
+                    <div id="description1" class="productdescription">
+                        <h1>ტრადიციული შავი</h1>
+                        <h2>რუსთაველი</h2>
+                        <p><b>წონა</b> - 100 გრ</p>
+                        <p><b>შემადგენლობა</b> - შავი ბაიხის ჩაი</p>
+                        <p><b>ფორმა</b> - გრეხილი მსხვილი</p>
+                    </div>
+                </div>
+                <div class="product2">
+                    <div id="description2" class="productdescription">
+                        <h1>ტრადიციული მწვანე</h1>
+                        <h2>რუსთაველი</h2>
+                        <p>100 გრ - <b>წონა</b></p>
+                        <p>მწვანე ბაიხის ჩაი - <b>შემადგენლობა</b></p>
+                        <p>გრეხილი მსხვილი - <b>ფორმა</b></p>
+                    </div>
+                    <img src="IMAGES/rustaveli2.png" alt="Gurieli">
+                </div>
+            </div>
+            <div class="slide">
+                <div class="product1">
+                    <img src="IMAGES/rustaveli3.png" alt="Gurieli">
+                    <div id="description1" class="productdescription">
+                        <h1>ერლ გრეი</h1>
+                        <h2>რუსთაველი</h2>
+                        <p><b>წონა</b> - 100 გრ</p>
+                        <p><b>შემადგენლობა</b> - შავი ჩაი & ბერგამოტი</p>
+                        <p><b>ფორმა</b> - გრეხილი მსხვილი</p>
+                    </div>
+                </div>
+                <div class="product2">
+                    <div id="description2"  class="productdescription">
+                        <h1>ჟასმინის ყვავილი</h1>
+                        <h2>რუსთაველი</h2>
+                        <p>100 გრ - <b>წონა</b></p>
+                        <p>მწვანე ჩაი & ჟასმინი - <b>შემადგენლობა</b></p>
+                        <p>გრეხილი მსხვილი - <b>ფორმა</b></p>
+                    </div>
+                    <img src="IMAGES/rustaveli4.png" alt="Gurieli">
+                </div>
+            </div>
+            <div class="slide">
+                <div class="product1">
+                    <img id="special1" src="IMAGES/rustaveli5.png" alt="Gurieli">
+                    <div id="description1" class="productdescription">
+                        <h1>ველური პიტნა</h1>
+                        <h2>რუსთაველი</h2>
+                        <p><b>წონა</b> - 100 გრ</p>
+                        <p><b>შემადგენლობა</b> - პიტნა</p>
+                        <p><b>ფორმა</b> - გრეხილი მსხვილი</p>
+                    </div>
+                </div>
+                <div class="product2">
+                    <div id="description2"  class="productdescription">
+                        <h1>ალპური კენკრა</h1>
+                        <h2 id="specialh2">რუსთაველი</h2>
+                        <p>100 გრ - <b>წონა</b></p>
+                        <p>ჰიბისკუსი, ვარდი - <b>შემადგენლობა</b></p>
+                        <p>გრეხილი მსხვილი - <b>ფორმა</b></p>
+                    </div>
+                    <img id="special2" src="IMAGES/rustaveli6.png" alt="Gurieli">
+                </div>
+            </div>
+            <div class="slide">
+                <div class="product1">
+                    <img id="special3" src="IMAGES/rustaveli7.png" alt="Gurieli">
+                    <div id="description1" class="productdescription">
+                        <h1>თოვლის ვარდი</h1>
+                        <h2>რუსთაველი</h2>
+                        <p><b>წონა</b> - 100 გრ</p>
+                        <p><b>შემადგენლობა</b> - როდედენდრონი</p>
+                        <p><b>ფორმა</b> - გრეხილი მსხვილი</p>
+                    </div>
+                </div>
+                <div class="product2">
+                    <div id="description2"  class="productdescription">
+                        <h1>მინდვრის გვირილა</h1>
+                        <h2>რუსთაველი</h2>
+                        <p>100 გრ - <b>წონა</b></p>
+                        <p>გვირილა, მწვანე ჩაი - <b>შემადგენლობა</b></p>
+                        <p>გრეხილი მსხვილი - <b>ფორმა</b></p>
+                    </div>
+                    <img id="special4" src="IMAGES/rustaveli8.png" alt="Gurieli">
+                </div>
+            </div>
+            <div class="slide">
+                <div class="product1">
+                    <img src="IMAGES/rustaveli8.png" alt="Gurieli">
+                    <div id="description1" class="productdescription">
+                        <h1>მინდვრის გვირილა</h1>
+                        <h2>რუსთაველი</h2>
+                        <p><b>წონა</b> - 100 გრ</p>
+                        <p><b>შემადგენლობა</b> - გვირილა, მწვანე ჩაი </p>
+                        <p><b>ფორმა</b> - გრეხილი მსხვილი</p>
+                    </div>
+                </div>
+                <div class="product2">
+                    <div id="description2"  class="productdescription">
+                        <h1>მესხური ჭინჭარი</h1>
+                        <h2>რუსთაველი</h2>
+                        <p>100 გრ - <b>წონა</b></p>
+                        <p>ჭინჭარი, მწვანე ჩაი - <b>შემადგენლობა</b></p>
+                        <p>გრეხილი მსხვილი - <b>ფორმა</b></p>
+                    </div>
+                    <img src="IMAGES/rustaveli9.png" alt="Gurieli">
+                </div>
+            </div>
+          
+        </div>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+
+        <div class="text">
+            <p class="p1">საკოლექციო გამოცემა „გურიელი რუსთაველის ქვეყნიდან“ შედგება ჩაის ცხრა სახეობისგან: ტრადიციული შავი, ტრადიციული მწვანე, ერლ გრეი, ჟასმინის ყვავილი, ალპური კენკრა, ველური პიტნა, გვირილა, თოვლის ვარდი და მესხური ჭინჭარი. საკოლექციო გამოცემის ქართული და ინგლისური ვერსიები 2019 წელს იყო წარმოდგენილი.</p>
+            <p class="p2">საკოლექციო ჩაის თითოეული სახეობის შეფუთვაზე გამოყენებულია ისეთი ცნობილი მხატვრების ნამუშევრები, როგორიცაა: პეტრე ოცხელი, მიხეილ ზიჩი, გიორგი ერისთავი, მიხეილ ჩიქოვანი, გრიგორი გაგარინი, ბორის იოჰანსენი, მიხეილ ჭიაურელი, ასევე შოთა რუსთაველის ფრესკა იერუსალიმის ჯვარის მონასტრიდან.</p>
+        </div>
+    </div>
+
+    <div class="products">
+        <img src="IMAGES/rustaveli1.png" alt="Gurieli Special">
+        <img src="IMAGES/rustaveli2.png" alt="Gurieli Special">
+        <img src="IMAGES/rustaveli3.png" alt="Gurieli Special">
+        <img src="IMAGES/rustaveli4.png" alt="Gurieli Special">
+        <img src="IMAGES/rustaveli5.png" alt="Gurieli Special">
+        <img src="IMAGES/rustaveli6.png" alt="Gurieli Special">
+        <img src="IMAGES/rustaveli7.png" alt="Gurieli Special">
+        <img src="IMAGES/rustaveli8.png" alt="Gurieli Special">
+        <img src="IMAGES/rustaveli9.png" alt="Gurieli Special">
+    </div>
+    
+
+    <script src="JS/app.js"></script>
+</body>
+</html>
