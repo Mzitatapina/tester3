@@ -617,11 +617,11 @@ button:hover{
     }
     
     
-    header{
+    /*header{
         border-bottom: 1px solid #FFFFFF;
         display: grid;
         grid-template-columns: 10% 20% 70%;
-    }
+    }*/
       
     
     .logo {
