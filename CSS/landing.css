@@ -649,6 +649,7 @@ button:hover{
         height: 5%;
         float: right;
         cursor: pointer;
+        z-index: 500;
       }
       
       .menu-box {
