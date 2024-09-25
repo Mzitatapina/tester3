@@ -847,8 +847,7 @@ button:hover{
     }
 
     .forMobile {
-        width: 20%;
-        height: 20%;
+        width: 5%;
         float: right;
         cursor: pointer;
         padding-left: 70%;
@@ -897,6 +896,7 @@ button:hover{
         cursor: pointer;
         margin-top: 0;
         padding-right: 3%;
+        color: #FFFFFF;
       }
       
       .menu-box.open-menu {
@@ -919,7 +919,7 @@ button:hover{
 
 
     .maininfo p{
-        font-size: 3px;
+        font-size: 0.1em;
     }
 
     .prev, .next{
