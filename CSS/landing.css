@@ -692,6 +692,7 @@ button:hover{
         cursor: pointer;
         margin-top: 0;
         padding-right: 3%;
+        color: #FFFFFF
       }
       
       .menu-box.open-menu {
@@ -875,6 +876,14 @@ button:hover{
   
       li{
           display: block;
+      }
+
+      .dropdowna{
+        display: block;
+      }
+
+      .dropdownb{
+        display: block;
       }
       
       .menu-box a {
