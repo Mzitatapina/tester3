@@ -904,6 +904,17 @@ button:hover{
         border-bottom-left-radius: 0;
       }
 
+      ul li .dropdown {
+        background-color: none;
+        border-radius: none;
+        margin: 0;
+        padding: 5% 10%;
+        list-style-type: none;
+    }
+
+    .menu-box ul .dropdown {
+        display: none;
+    }
 
     .menu-box ul li:hover > .dropdown,
     .menu-box ul li:focus-within > .dropdown {
@@ -953,7 +964,7 @@ button:hover{
         right: 4%
     }
 
-    h2, h4{
+    h2{
         font-size: 20%;
     }
 
