@@ -904,6 +904,7 @@ button:hover{
         border-bottom-left-radius: 0;
       }
 
+      /*from here to maininfo are doughtful styling*/
       ul li .dropdown {
         background-color: none;
         border-radius: none;
