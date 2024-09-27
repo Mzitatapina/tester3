@@ -903,6 +903,11 @@ button:hover{
         height: 100%;
         border-bottom-left-radius: 0;
       }
+
+
+    .menu-box ul li:hover > .dropdown,
+    .menu-box ul li:focus-within > .dropdown {
+        display: block;
     
     .maininfo{
         /*height: 50vh;*/
