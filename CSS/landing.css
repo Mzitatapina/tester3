@@ -625,7 +625,7 @@ button:hover{
     .logo {
         height: 60%;
         width: 60%;
-        padding-top: 15%;
+        padding-top: 5%;
     }
 
     li > a{ 
@@ -647,7 +647,7 @@ button:hover{
         float: right;
         cursor: pointer;
         padding-left: 70%;
-        padding-top: 10%;
+        padding-top: 1%;
       }
       
       .menu-box {
@@ -850,7 +850,7 @@ button:hover{
         float: right;
         cursor: pointer;
         padding-left: 80%;
-        padding-top: 3%;
+        padding-top: 1%;
       }
       
       .menu-box {
