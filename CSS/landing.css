@@ -922,6 +922,10 @@ button:hover{
         font-size: 0.1em;
     }
 
+    #history{
+        font-size: 0.1em;
+    }
+
     .prev, .next{
         padding: 5px;
     }
