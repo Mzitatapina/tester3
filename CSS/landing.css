@@ -908,7 +908,8 @@ button:hover{
     .menu-box ul li:hover > .dropdown,
     .menu-box ul li:focus-within > .dropdown {
         display: block;
-    
+    }
+
     .maininfo{
         /*height: 50vh;*/
         margin-top: 0;
