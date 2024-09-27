@@ -926,6 +926,10 @@ button:hover{
         font-size: 0.1em;
     }
 
+    #brand{
+        font-size: 0.1em;
+    }
+
     .prev, .next{
         padding: 5px;
     }
