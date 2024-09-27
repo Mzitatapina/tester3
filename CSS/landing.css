@@ -892,6 +892,10 @@ button:hover{
           display: block;
       }
 
+      .dropdown{
+        display: block;
+      }
+
       .dropdowna{
         display: block;
       }
