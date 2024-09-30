@@ -822,7 +822,7 @@ button:hover{
         padding-left: 5%;
     }
 
-    nav li {
+    .secondnav li, .accordion-content li {
         display: block; /* Change to block for mobile */
         cursor: pointer; /* Pointer for clickable items */
     }
