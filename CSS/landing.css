@@ -920,7 +920,20 @@ button:hover{
         display: block; /* Make dropdown visible on mobile */
         max-height: initial; /* Remove max-height restriction */
         opacity: 1; /* Make dropdown fully opaque */
+        transition: none;
       }
+
+      ul li .dropdown {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        background-color: none;
+        border-radius: none;
+        margin: 0;
+        padding: 10% 20%;
+        list-style-type: none;
+    }
 
 
     .maininfo{
