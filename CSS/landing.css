@@ -873,7 +873,7 @@ button:hover{
         height: 0;
         display: block;
         position: fixed;
-        z-index: 100;
+        z-index: 1000;
         background-color: rgb(151, 165, 47, 0.8);
         right: 0;
         top: 0;
@@ -890,18 +890,6 @@ button:hover{
   
       li{
           display: block;
-      }
-
-      .dropdown{
-        display: block;
-      }
-
-      .dropdowna{
-        display: block;
-      }
-
-      .dropdownb{
-        display: block;
       }
       
       .menu-box a {
@@ -932,26 +920,22 @@ button:hover{
       }
 
       /*from here to maininfo are doughtful styling*/
-      ul li .dropdown {
-        .dropdown {
-            display: block; /* Change to block to show the dropdown */
-            max-height: none; /* Remove max-height restriction */
-            opacity: 1; /* Ensure the dropdown is fully visible */
-            overflow: visible; /* Allow content to be visible */
-            padding: 10px; /* Adjust padding as needed */
-            min-width: auto; /* Change or remove min-width if necessary */
-            background-color: none;
-        }
+      .dropdown {
+        display: block; /* Show dropdown by default */
+        max-height: none; /* Remove max-height restriction */
+        opacity: 1; /* Ensure the dropdown is fully visible */
+        overflow: visible; /* Allow content to be visible */
+        padding: 10px; /* Adjust padding as needed */
+        min-width: auto; /* Change or remove min-width if necessary */
     }
 
-    .menu-box ul .dropdown {
-        display: none;
+    /* Remove hover behavior on mobile */
+    ul li:hover > .dropdown {
+        display: block; /* Keep it visible without hover effect */
+        max-height: none; /* Ensure it expands fully */
+        opacity: 1; /* Fully visible */
     }
 
-    .menu-box ul li:hover > .dropdown,
-    .menu-box ul li:focus-within > .dropdown {
-        display: block;
-    }
 
     .maininfo{
         /*height: 50vh;*/
