@@ -817,14 +817,11 @@ button:hover{
         text-decoration: none;
         text-align: center;
     }
-    
-    .languagebar{
-        color: #97A52F;
-        font-weight: 600;
-        font-size: 5px;
-        padding: 6em 1em;
+
+    .languagebarcover2 img{
+        width: 10%;
     }
-    
+        
     
     /*header{
         border-bottom: 1px solid #FFFFFF;
