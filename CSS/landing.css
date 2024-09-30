@@ -816,55 +816,15 @@ button:hover{
         display: none;
     }
 
-    nav li {
-        display: block; /* Change to block for mobile */
-        cursor: pointer; /* Pointer for clickable items */
-    }
-
-    .accordion-content {
-        display: none; /* Hide accordion content by default */
-    }
-
-    .accordion-content.active {
-        display: block; /* Show active accordion content */
-    }
-
-    .languagebarcover2{
-        z-index: 200;
-        height: 20%;
-    }
-
-    .languagebarcover2 a{
-        text-decoration: none;
-        text-align: center;
-    }
-
-    .languagebarcover2 img{
-        width: 20%;
-    }
-        
     
-    /*header{
-        border-bottom: 1px solid #FFFFFF;
-        display: grid;
-        grid-template-columns: 10% 20% 70%;
-    }*/
-      
-    /*.languagebar a{
-        font-size: 5px;
-    }
-
-    .languagebar{
-        padding-top: 600%;
-    }*/
 
     nav{
         padding-left: 5%;
     }
 
-    ul{
-        padding-top: 2%;
-        gap: 2%;
+    nav li {
+        display: block; /* Change to block for mobile */
+        cursor: pointer; /* Pointer for clickable items */
     }
 
     li a{
@@ -901,14 +861,6 @@ button:hover{
         border-bottom-left-radius: 100%;
         transition: width 0.1s, height 0.1s, border-radius 0.5s;
       }
-  
-      ul{
-          display: block;
-      }
-  
-      li{
-          display: block;
-      }
       
       .menu-box a {
         color: white;
@@ -937,7 +889,27 @@ button:hover{
       }
 
       /*from here to maininfo are doughtful styling*/
-    
+    .accordion-content {
+        display: none; /* Hide accordion content by default */
+    }
+
+    .accordion-content.active {
+        display: block; /* Show active accordion content */
+    }
+
+    .languagebarcover2{
+        z-index: 200;
+        height: 20%;
+    }
+
+    .languagebarcover2 a{
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .languagebarcover2 img{
+        width: 20%;
+    }
 
     .maininfo{
         /*height: 50vh;*/
