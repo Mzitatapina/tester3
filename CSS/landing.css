@@ -816,7 +816,9 @@ button:hover{
         display: none;
     }
 
-    
+    .secondnav{
+        display: block;
+    }
 
     nav{
         padding-left: 5%;
@@ -874,7 +876,8 @@ button:hover{
       }
       
       .exitMobile {
-        width:40%;
+        width:30%;
+        height: 30%;
         float: right;
         cursor: pointer;
         margin-top: 0;
