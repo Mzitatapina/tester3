@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav ul {
+    list-style-type: none;
+    padding: 0;
+        }
+
+        nav li {
+            display: inline; /* Default for desktop */
+        }
+
+        @media (max-width: 768px) {
+            nav li {
+                display: block; /* Change to block for mobile */
+                cursor: pointer; /* Pointer for clickable items */
+            }
+
+            .accordion-content {
+                display: none; /* Hide accordion content by default */
+            }
+
+            .accordion-content.active {
+                display: block; /* Show active accordion content */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>
+                    Services
+                    <div class="accordion-content">
+                        <ul>
+                            <li>Service 1</li>
+                            <li>Service 2</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    About
+                    <div class="accordion-content">
+                        <ul>
+                            <li>Team</li>
+                            <li>Company</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <script>
+        document.querySelectorAll('nav li').forEach(item => {
+        item.addEventListener('click', event => {
+            const content = item.querySelector('.accordion-content');
+            if (content) {
+                content.classList.toggle('active'); // Toggle active class
+            }
+        });
+    });
+    </script>
+</body>
+</html>

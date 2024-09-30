@@ -919,21 +919,11 @@ button:hover{
       }
 
       /*from here to maininfo are doughtful styling*/
-      .dropdown {
-        display: block; /* Show dropdown by default */
-        max-height: none; /* Remove max-height restriction */
-        opacity: 1; /* Ensure the dropdown is fully visible */
-        overflow: visible; /* Allow content to be visible */
-        padding: 10px; /* Adjust padding as needed */
-        min-width: auto; /* Change or remove min-width if necessary */
-    }
-
-    /* Remove hover behavior on mobile */
-    ul li:hover > .dropdown {
-        display: block; /* Keep it visible without hover effect */
-        max-height: none; /* Ensure it expands fully */
-        opacity: 1; /* Fully visible */
-    }
+    .dropdown {
+        display: block; /* Make dropdown visible on mobile */
+        max-height: initial; /* Remove max-height restriction */
+        opacity: 1; /* Make dropdown fully opaque */
+      }
 
 
     .maininfo{
