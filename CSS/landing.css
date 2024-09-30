@@ -816,6 +816,19 @@ button:hover{
         display: none;
     }
 
+    nav li {
+        display: block; /* Change to block for mobile */
+        cursor: pointer; /* Pointer for clickable items */
+    }
+
+    .accordion-content {
+        display: none; /* Hide accordion content by default */
+    }
+
+    .accordion-content.active {
+        display: block; /* Show active accordion content */
+    }
+
     .languagebarcover2{
         z-index: 200;
         height: 20%;
