@@ -933,11 +933,15 @@ button:hover{
 
       /*from here to maininfo are doughtful styling*/
       ul li .dropdown {
-        background-color: none;
-        border-radius: none;
-        margin: 0;
-        padding: 5% 10%;
-        list-style-type: none;
+        .dropdown {
+            display: block; /* Change to block to show the dropdown */
+            max-height: none; /* Remove max-height restriction */
+            opacity: 1; /* Ensure the dropdown is fully visible */
+            overflow: visible; /* Allow content to be visible */
+            padding: 10px; /* Adjust padding as needed */
+            min-width: auto; /* Change or remove min-width if necessary */
+            background-color: none;
+        }
     }
 
     .menu-box ul .dropdown {
