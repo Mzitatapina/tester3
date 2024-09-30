@@ -977,4 +977,8 @@ button:hover{
     .forMobile, .exitMobile{
         display: none;
     }
+
+    .secondnav{
+        display: none;
+    }
 }
