@@ -833,6 +833,11 @@ button:hover{
         font-size: 0.5em;
     }
 
+    .accordion-content ul li a{
+        font-size: 0.3em;
+        padding-left: 10%;
+    }
+
     .logo{
         width: 80%;
         height: 80%;
