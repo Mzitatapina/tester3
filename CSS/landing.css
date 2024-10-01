@@ -793,7 +793,7 @@ button:hover{
 
 
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 640px){
     body{
         margin: 0;
         padding: 0;
@@ -952,7 +952,7 @@ button:hover{
     }
 
     #history{
-        font-size: 0.1em;
+        font-size: 0.05em;
     }
 
     .subp{
