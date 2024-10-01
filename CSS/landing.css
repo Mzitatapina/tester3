@@ -601,35 +601,23 @@ button:hover{
         display: none;
     }
 
-    .languagebarcover2{
-        display: inline-flex;
+    .firstnav{
+        display: none;
     }
 
-    .languagebarcover2 a{
-        text-decoration: none;
-        text-align: center;
+    
+
+    
+    .secondnav{
+        display: block;
     }
-    
-    .languagebar{
-        color: #97A52F;
-        font-weight: 600;
-        padding-left: 15%;
-        font-size: 5px;
-        padding: 1em;
-    }
-    
-    
-    /*header{
-        border-bottom: 1px solid #FFFFFF;
-        display: grid;
-        grid-template-columns: 10% 20% 70%;
-    }*/
       
     
     .logo {
-        height: 60%;
-        width: 60%;
+        width: 80%;
+        height: 80%;
         padding-top: 5%;
+        padding-left: 10%;
     }
 
     li > a{ 
@@ -670,13 +658,7 @@ button:hover{
         transition: width 0.1s, height 0.1s, border-radius 0.5s;
       }
   
-      ul{
-          display: block;
-      }
-  
-      li{
-          display: block;
-      }
+      
       
       .menu-box a {
         color: white;
@@ -705,21 +687,48 @@ button:hover{
         border-bottom-left-radius: 0;
       }
 
-    
-    .firstline{
-    font-size: 7px;
-    }
+      .accordion-content {
+        display: none; /* Hide accordion content by default */
+        }
 
-    .title1, .title2{
-        font-weight: 100;
-        font-size: 10px;
-    }
+        .accordion-content.active {
+            display: block; /* Show active accordion content */
+        }
+
+        #headlines{
+            font-size: 0.4em;
+            padding-left: 5%;
+        }
+
+        .accordion-content ul li a{
+            font-size: 0.2em;
+            padding-left: 10%;
+        }
 
 
-    .shortinfo{
-        font-weight: 100;
+        .languagebarcover2{
+            display: inline-flex;
+        }
+
+        .languagebarcover2 a{
+            text-decoration: none;
+            text-align: center;
+        }
+        
+        .firstline{
         font-size: 7px;
-    }
+        }
+
+        .title1, .title2{
+            font-weight: 100;
+            font-size: 10px;
+        }
+
+
+        .shortinfo{
+            font-weight: 100;
+            font-size: 7px;
+        }
 
     .scroll{
         display: none;
@@ -833,8 +842,13 @@ button:hover{
         font-size: 0.5em;
     }
 
+    #headlines{
+        font-size: 0.4em;
+        padding-left: 5%;
+    }
+
     .accordion-content ul li a{
-        font-size: 0.3em;
+        font-size: 0.2em;
         padding-left: 10%;
     }
 
@@ -881,8 +895,8 @@ button:hover{
       }
       
       .exitMobile {
-        width:30%;
-        height: 30%;
+        width:10%;
+        height: 10%;
         float: right;
         cursor: pointer;
         margin-top: 0;
