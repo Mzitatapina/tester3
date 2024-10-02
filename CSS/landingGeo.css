@@ -626,9 +626,8 @@ button:hover{
     }
     
     .logo {
-        height: 70%;
-        width: 70%;
-        padding-top: 15%;
+        height: 80%;
+        width: 80%;
     }
 
     li > a{ 
@@ -734,21 +733,7 @@ button:hover{
             text-align: center;
         }
 
-    
-    .firstline{
-    font-size: 7px;
-    }
 
-    .title1, .title2{
-        font-weight: 100;
-        font-size: 10px;
-    }
-
-
-    .shortinfo{
-        font-weight: 100;
-        font-size: 7px;
-    }
 
     .scroll{
         display: none;
@@ -953,6 +938,22 @@ button:hover{
     .languagebarcover2 img{
         width: 30%;
         padding-left: 0%;
+    }
+
+
+    .firstline{
+        font-size: 0.2em;
+    }
+    
+    .title1, .title2{
+        font-weight: 100;
+        font-size: 0.5em;
+    }
+    
+    
+    .shortinfo{
+        font-weight: 100;
+        font-size: 0.2em;
     }
     
     .maininfo{
