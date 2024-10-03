@@ -48,7 +48,13 @@ p{
     padding-top: 2%;
 }
 
+.languagebarcover2{
+    display: none;
+}
 
+.secondnav{
+    display: none;
+}
 
 header{
     border-bottom: 1px solid #565656;
