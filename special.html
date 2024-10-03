@@ -17,8 +17,10 @@
             <a href="special.html"><p class="languagebar">ENG</p></a>
         </div>
         <a href="landing.html"><img src="SVG/logo3.svg" alt="gurieli" class="logo"></a>
-        <nav>
-            <ul>
+        <img id="menuIcon" class="forMobile" src="SVG/burger.svg" alt="burger-menu">
+        <nav class="menu-box" id="menuBox">
+            <span id="menuExit" class="exitMobile">&times;</span>
+            <ul  class="firstnav">
               <li><a href="landing.html">Home</a></li>
               <li>
                 <a href="#history">Our Story</a>
@@ -41,7 +43,37 @@
               <li><a href="export.html">Export</a></li>
               <li><a href="contact.html">Contact</a></li>
             </ul>
-          </nav>
+            <ul class="secondnav">
+                <li><a href="landing.html">Home</a></li>
+                <li>
+                  <a href="#history">Our Story</a>
+                  <div class="accordion-content">
+                    <ul>
+                      <li><a href="history.html">Brand History</a></li>
+                      <li><a href="resources.html">Plantations & Rresources</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <a href="#">Products</a>
+                  <div class="accordion-content">
+                    <ul>
+                      <li><a href="#" id="headlines">Hot Brew Tea</a></li>
+                      <li><a href="product_2.html">Gurieli Classic</a></li>
+                      <li><a href="product_1.html">Premium: Pince Gurieli</a></li>
+                      <li><a href="special.html">Special Edition</a></li>
+                      <li><a href="product_3.html" id="headlines">Iced Tea</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="export.html">Export</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="languagebarcover2">
+                <a href="landingGeo.html"><img src="IMAGES/georgia.png" alt=""></a>
+                <a href="landing.html"><img src="IMAGES/united-kingdom.png" alt=""></a>
+            </div>
         </nav>
     </header>
     
@@ -183,5 +215,15 @@
     
 
     <script src="JS/app.js"></script>
+    <script>
+        document.querySelectorAll('nav li').forEach(item => {
+        item.addEventListener('click', event => {
+            const content = item.querySelector('.accordion-content');
+            if (content) {
+                content.classList.toggle('active'); // Toggle active class
+            }
+        });
+      });
+    </script>
 </body>
 </html>
