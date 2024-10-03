@@ -594,5 +594,15 @@
 
     <script src="JS/product_21.js"></script>
     <script src="JS/app.js"></script>
+    <script>
+        document.querySelectorAll('nav li').forEach(item => {
+        item.addEventListener('click', event => {
+            const content = item.querySelector('.accordion-content');
+            if (content) {
+                content.classList.toggle('active'); // Toggle active class
+            }
+        });
+      });
+      </script>
 </body>
 </html>
