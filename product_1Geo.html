@@ -17,8 +17,10 @@
             <a href="product_1.html"><p class="languagebar">ENG</p></a>
         </div>
         <a href="landing.html"><img src="SVG/logo7.svg" alt="gurieli" class="logo"></a>
-        <nav>
-            <ul>
+        <img id="menuIcon" class="forMobile" src="IMAGES/menu.png" alt="burger-menu">
+        <nav class="menu-box" id="menuBox">
+            <span id="menuExit" class="exitMobile">&times;</span>
+            <ul  class="firstnav">
               <li><a href="landingGeo.html">მთავარი</a></li>
               <li>
                 <a href="#history">ჩვენი ამბავი</a>
@@ -41,6 +43,38 @@
               <li><a href="exportGeo.html">ექსპორტი</a></li>
               <li><a href="contactGeo.html">კონტაქტი</a></li>
             </ul>
+            <ul class="secondnav">
+                
+                <li><a href="landingGeo.html">მთავარი</a></li>
+                <li>
+                  <a href="#history">ჩვენი ამბავი</a>
+                  <div class="accordion-content">
+                    <ul>
+                      <li><a href="historyGeo.html">ისტორია</a></li>
+                      <li><a href="resourcesGeo.html">პლანტაციები & რესურსები</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <a href="#">პროდუქტები</a>
+                  <div class="accordion-content">
+                    <ul>
+                      <li><a href="#" id="headlines">ცხელი ჩაი</a></li>
+                      <li><a href="product_2Geo.html">გურიელი</a></li>
+                      <li><a href="product_1Geo.html">პრინცი გურიელი</a></li>
+                      <li><a href="specialGeo.html">ლიმიტირებული სერია</a></li>
+                      <li><a href="product_3Geo.html" id="headlines">ცივი ჩაი</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="newsGeo.html">სიახლეები</a></li>
+                <li><a href="exportGeo.html">ექსპორტი</a></li>
+                <li><a href="contactGeo.html">კონტაქტი</a></li>
+            </ul>
+            <div class="languagebarcover2"></div>
+              <a href="landingGeo.html"><img src="IMAGES/georgia.png" alt=""></a>
+              <a href="landing.html"><img src="IMAGES/united-kingdom.png" alt=""></a>
+            </div>
           </nav>
         </nav>
     </header>
@@ -260,5 +294,15 @@
     <script src="JS/text2.js"></script>
     <script src="JS/product.js"></script>
     <script src="JS/app.js"></script>
+    <script>
+        document.querySelectorAll('nav li').forEach(item => {
+        item.addEventListener('click', event => {
+            const content = item.querySelector('.accordion-content');
+            if (content) {
+                content.classList.toggle('active'); // Toggle active class
+            }
+        });
+      });
+      </script>
 </body>
 </html>

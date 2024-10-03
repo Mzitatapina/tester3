@@ -17,8 +17,10 @@
             <a href="product_1.html"><p class="languagebar">ENG</p></a>
         </div>
         <a href="landing.html"><img src="SVG/logo3.svg" alt="gurieli" class="logo"></a>
-        <nav>
-            <ul>
+        <img id="menuIcon" class="forMobile" src="IMAGES/menu.png" alt="burger-menu">
+        <nav class="menu-box" id="menuBox">
+            <span id="menuExit" class="exitMobile">&times;</span>
+            <ul  class="firstnav">
               <li><a href="landing.html">Home</a></li>
               <li>
                 <a href="#history">Our Story</a>
@@ -280,5 +282,15 @@
     <script src="JS/text2.js"></script>
     <script src="JS/product.js"></script>
     <script src="JS/app.js"></script>
+    <script>
+        document.querySelectorAll('nav li').forEach(item => {
+        item.addEventListener('click', event => {
+            const content = item.querySelector('.accordion-content');
+            if (content) {
+                content.classList.toggle('active'); // Toggle active class
+            }
+        });
+      });
+      </script>
 </body>
 </html>
