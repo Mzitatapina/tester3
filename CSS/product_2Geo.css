@@ -46,6 +46,13 @@ p{
     padding-top: 8%;
 }
 
+.languagebarcover2{
+    display: none;
+}
+
+.secondnav{
+    display: none;
+}
 
 header{
     border-bottom: 1px solid #565656;
@@ -476,23 +483,125 @@ section{
         padding-top: 15%;
     }
   
-    .languagebar {
-        font-size: 5px;
+    .languagebarcover{
+        display:none;
     }
 
-    li > a{ 
-        font-size: 0.4em;
+    .firstnav{
+        display: none;
+    }
+
+    .secondnav{
+        display: block;
     }
 
     nav{
-        padding-left: 0;
+        display: block;
+        padding-left: 5%;
     }
 
     ul{
-        padding-left: 2%;
-        gap: 2%
+        display: block;
     }
 
+    li{
+        display: block;
+    }
+
+    .secondnav li, .accordion-content li {
+        display: block; /* Change to block for mobile */
+        cursor: pointer; /* Pointer for clickable items */
+    }
+
+    #headlines{
+        font-size: 0.4em;
+        padding-left: 5%;
+    }
+
+    .accordion-content ul li a{
+        font-size: 0.2em;
+        padding-left: 10%;
+    }
+    
+
+    li a{
+        font-size: 0.4em;
+    }
+
+    .forMobile {
+        width: 5%;
+        float: right;
+        cursor: pointer;
+        padding-left: 80%;
+        padding-top: 1%;
+      }
+      
+      .menu-box {
+        width: 0;
+        height: 0;
+        display: block;
+        position: fixed;
+        z-index: 1000;
+        background-color: rgb(151, 165, 47, 0.8);
+        right: 0;
+        top: 0;
+        padding: 0;
+        overflow: hidden;
+        
+        border-bottom-left-radius: 100%;
+        transition: width 0.1s, height 0.1s, border-radius 0.5s;
+      }
+      
+      .menu-box a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        font-size: 95%;
+        padding: 0.5%;
+        line-height: 200%;
+      
+      }
+      
+      .exitMobile {
+        width:10%;
+        height: 10%;
+        float: right;
+        cursor: pointer;
+        margin-top: 0;
+        padding-right: 3%;
+        color: #FFFFFF;
+      }
+      
+      .menu-box.open-menu {
+        width: 50%;
+        height: 100%;
+        border-bottom-left-radius: 0;
+      }
+
+      /*from here to maininfo are doughtful styling*/
+    .accordion-content {
+        display: none; /* Hide accordion content by default */
+    }
+
+    .accordion-content.active {
+        display: block; /* Show active accordion content */
+    }
+
+    .languagebarcover2{
+        z-index: 200;
+        height: 20%;
+    }
+
+    .languagebarcover2 a{
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .languagebarcover2 a img{
+        width: 15%;
+        padding-left: 0%;
+    }
 
 
     .ProductBackground img{
@@ -581,3 +690,8 @@ section{
     }
 }
 
+@media screen and (min-width: 768px) {
+    .forMobile, .exitMobile{
+        display: none;
+    }
+}
