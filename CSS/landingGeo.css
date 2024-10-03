@@ -938,8 +938,8 @@ button:hover{
         text-align: center;
     }
 
-    .languagebarcover2 img{
-        width: 30%;
+    .languagebarcover2 a img{
+        width: 15%;
         padding-left: 0%;
     }
 
