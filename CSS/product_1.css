@@ -570,6 +570,11 @@ section{
             text-align: center;
         }
 
+        .languagebarcover2 a img{
+            width: 15%;
+            padding-left: 0%;
+        }
+
     .ProductBackground img{
         height: auto;
         width: 100vw;
