@@ -812,6 +812,9 @@ button:hover{
         display:none;
     }
 
+    .cover{
+        display:none;
+    }
 
     .firstnav{
         display: none;
