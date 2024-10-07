@@ -53,6 +53,7 @@ p{
     display: none;
 }
 
+
 .secondnav{
     display: none;
 }
@@ -445,6 +446,13 @@ section{
     }
       
 
+    header{
+        border-bottom: 1px solid #FFFFFF;
+        display: grid;
+        grid-template-columns: 20% 80%;  
+        padding-top: 0.5%; 
+    }
+    
     nav{
         display: block;
         padding-left: 0;

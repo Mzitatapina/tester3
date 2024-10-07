@@ -392,6 +392,13 @@ ul li:hover > .dropdown {
         display: block;
     }
 
+    header{
+        border-bottom: 1px solid #FFFFFF;
+        display: grid;
+        grid-template-columns: 20% 80%;  
+        padding-top: 0.5%; 
+    }
+
     nav{
         display: block;
         padding-left: 5%;
